@@ -1,0 +1,27 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Datasets (Keeps your repo under GitHub's size limits)
+dataset/
+*.jpg
+*.jpeg
+*.png
+
+# Saved Models (Ignore heavy model files if they exceed 100MB)
+models/*.h5
+models/*.model
+*.pb
+*.tflite
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
