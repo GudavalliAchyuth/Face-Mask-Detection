@@ -20,6 +20,16 @@ The global necessity for public health compliance has driven the need for automa
    git clone https://github.com/GudavalliAchyuth/Face-Mask-Detection.git
    cd Face-Mask-Detection
 
+## ⚠️ Prerequisites (Crucial for TensorFlow)
+Because this project utilizes TensorFlow 2.x, it requires a specific Python environment to run successfully.
+* **Required Python Version:** Python 3.8, 3.9, 3.10, or 3.11.
+* **Warning:** If you are using Python 3.12 or newer, the `pip install` command will fail because TensorFlow has not released stable binaries for those versions yet. 
+
+**Recommended Setup:**
+If you have a newer version of Python installed, please create an isolated Python 3.10 virtual environment before installing the requirements:
+`py -3.10 -m venv venv`
+`.\venv\Scripts\activate`
+
 2. Install required dependencies:
     pip install -r requirements.txt
 
