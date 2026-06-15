@@ -13,13 +13,6 @@ The global necessity for public health compliance has driven the need for automa
 * **Data Processing:** NumPy, Pandas
 * **Machine Learning Tools:** Scikit-Learn
 
-## ⚙️ Installation & Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/GudavalliAchyuth/Face-Mask-Detection.git
-   cd Face-Mask-Detection
-
 ## ⚠️ Prerequisites (Crucial for TensorFlow)
 Because this project utilizes TensorFlow 2.x, it requires a specific Python environment to run successfully.
 * **Required Python Version:** Python 3.8, 3.9, 3.10, or 3.11.
@@ -27,8 +20,16 @@ Because this project utilizes TensorFlow 2.x, it requires a specific Python envi
 
 **Recommended Setup:**
 If you have a newer version of Python installed, please create an isolated Python 3.10 virtual environment before installing the requirements:
-`py -3.10 -m venv venv`
-`.\venv\Scripts\activate`
+```bash
+py -3.10 -m venv venv
+.\venv\Scripts\activate
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/GudavalliAchyuth/Face-Mask-Detection.git
+   cd Face-Mask-Detection
 
 2. Install required dependencies:
     pip install -r requirements.txt
