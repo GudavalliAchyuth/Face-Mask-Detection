@@ -17,7 +17,7 @@ The global necessity for public health compliance has driven the need for automa
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/GudavalliAchyuth/Face-Mask-Detection.git](https://github.com/GudavalliAchyuth/Face-Mask-Detection.git)
+   git clone https://github.com/GudavalliAchyuth/Face-Mask-Detection.git
    cd Face-Mask-Detection
 
 2. Install required dependencies:
