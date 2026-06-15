@@ -19,3 +19,13 @@ The global necessity for public health compliance has driven the need for automa
    ```bash
    git clone [https://github.com/your-username/Face-Mask-Detection.git](https://github.com/your-username/Face-Mask-Detection.git)
    cd Face-Mask-Detection
+
+2. Install required dependencies:
+    pip install -r requirements.txt
+
+3.Usage & Execution:
+   Phase 1: Training the Model:
+      python scripts/train_mask_detector.py
+
+   Phase 2: Running the Live Detection:
+      python scripts/detect_mask_video.py
